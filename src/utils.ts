@@ -7,7 +7,7 @@ export const initializeCanvas = (
   if (!ctx) return;
 
   canvas.width = 1100;
-  canvas.height = 700;
+  canvas.height = 600;
 
   ctx.fillStyle = "#e3e0dc";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
