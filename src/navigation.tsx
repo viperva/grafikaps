@@ -1,5 +1,4 @@
 import { Drawer, Typography } from "@mui/material";
-import React from "react";
 import { LinkProps, Link as Link_ } from "react-router-dom";
 
 const Link = (props: LinkProps) => {
@@ -36,6 +35,7 @@ const Navigation = () => {
     >
       <Link to="/">Autorzy</Link>
       <Link to="/ps1">PS1</Link>
+      <Link to="/ps2">PS2</Link>
     </Drawer>
   );
 };
