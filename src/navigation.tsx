@@ -36,6 +36,7 @@ const Navigation = () => {
     >
       <Link to="/">Autorzy</Link>
       <Link to="/ps1">PS1</Link>
+      <Link to="/ps4">PS4</Link>
     </Drawer>
   );
 };

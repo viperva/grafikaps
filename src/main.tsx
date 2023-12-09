@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Credits from "./credits.tsx";
 import PS1 from "./ps1/ps1.tsx";
+import PS4 from "./ps4/Ps4.tsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/ps1",
         element: <PS1 />,
+      },
+      {
+        path: "/ps4",
+        element: <PS4 />,
       },
     ],
   },
