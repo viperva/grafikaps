@@ -1,5 +1,4 @@
 import { Drawer, Typography } from "@mui/material";
-import React from "react";
 import { LinkProps, Link as Link_ } from "react-router-dom";
 
 const Link = (props: LinkProps) => {
@@ -36,6 +35,7 @@ const Navigation = () => {
     >
       <Link to="/">Autorzy</Link>
       <Link to="/ps1">PS1</Link>
+<<<<<<< HEAD
 
       <Link to="/ps4">PS4</Link>
 
@@ -43,6 +43,9 @@ const Navigation = () => {
       <Link to="/ps5">PS5</Link>
       <Link to="/ps7">PS7</Link>
 
+=======
+      <Link to="/ps2">PS2</Link>
+>>>>>>> feat/ps2
     </Drawer>
   );
 };
