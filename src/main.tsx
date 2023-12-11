@@ -13,7 +13,6 @@ import PS3 from "./ps3/ps3.tsx";
 import PS5 from "./ps5/ps5.tsx";
 import PS7 from "./ps7/ps7.tsx";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,12 +26,9 @@ const router = createBrowserRouter([
         path: "/ps1",
         element: <PS1 />,
       },
+
+      { path: "/ps4", element: <PS4 /> },
       {
-<<<<<<< HEAD
-
-        path: "/ps4",
-        element: <PS4 />,
-
         path: "/ps3",
         element: <PS3 />,
       },
@@ -43,10 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/ps7",
         element: <PS7 />,
-=======
+      },
+      {
         path: "/ps2",
         element: <PS2 />,
->>>>>>> feat/ps2
       },
     ],
   },
