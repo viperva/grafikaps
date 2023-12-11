@@ -360,7 +360,7 @@ const PS1 = () => {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    canvas.width = 1100;
+    canvas.width = 1000;
     canvas.height = 600;
 
     ctx.fillStyle = "#e3e0dc";
