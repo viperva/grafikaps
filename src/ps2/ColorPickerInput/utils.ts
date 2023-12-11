@@ -1,4 +1,4 @@
-import { AVAILABLE_COLORS } from "../ps2";
+import { AVAILABLE_COLORS } from "../FirstExercise/FirstExercise";
 import ColorPickerInput from "./ColorPickerInput";
 
 export const convertToRGB = ({
